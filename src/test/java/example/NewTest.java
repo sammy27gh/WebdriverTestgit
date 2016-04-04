@@ -17,6 +17,7 @@ public class NewTest {
             System.out.println("Test if the title containf free selenium tutorial ");
             Assert.assertTrue(title.contains("Free Selenium Tutorials"));       
         }   
+        @Test
         public void testEasy2() {    
         	System.out.println("This is the second test ");
             driver.get("http://www.guru99.com/selenium-tutorial.html");  
