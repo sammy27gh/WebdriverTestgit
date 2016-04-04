@@ -17,6 +17,12 @@ public class NewTest {
             System.out.println("Test if the title containf free selenium tutorial ");
             Assert.assertTrue(title.contains("Free Selenium Tutorials"));       
         }   
+        public void testEasy2() {    
+            driver.get("http://www.guru99.com/selenium-tutorial.html");  
+            String title = driver.getTitle();   
+            System.out.println("Test if the title containf free selenium tutorial ");
+            Assert.assertTrue(title.contains("kofi"));       
+        } 
         @BeforeTest
         public void beforeTest() {  
             driver = new FirefoxDriver();  
