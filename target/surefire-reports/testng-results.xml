@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="example.NewTest" duration-ms="32789" started-at="2016-04-05T07:24:13Z" finished-at="2016-04-05T07:24:45Z">
+  <suite name="example.NewTest" duration-ms="19986" started-at="2016-04-05T07:47:24Z" finished-at="2016-04-05T07:47:44Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="32789" started-at="2016-04-05T07:24:13Z" finished-at="2016-04-05T07:24:45Z">
+    <test name="Command line test" duration-ms="19986" started-at="2016-04-05T07:47:24Z" finished-at="2016-04-05T07:47:44Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@78293354]" name="beforeTest" is-config="true" duration-ms="16078" started-at="2016-04-05T02:24:13Z" finished-at="2016-04-05T02:24:29Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@7f7f5281]" name="beforeTest" is-config="true" duration-ms="5451" started-at="2016-04-05T02:47:24Z" finished-at="2016-04-05T02:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@78293354]" name="testEasy" duration-ms="14433" started-at="2016-04-05T02:24:29Z" finished-at="2016-04-05T02:24:43Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@7f7f5281]" name="testEasy" duration-ms="12558" started-at="2016-04-05T02:47:29Z" finished-at="2016-04-05T02:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="FAIL" signature="tryanother()[pri:0, instance:example.NewTest@78293354]" name="tryanother" duration-ms="1219" started-at="2016-04-05T02:24:43Z" finished-at="2016-04-05T02:24:44Z">
+        <test-method status="FAIL" signature="tryanother()[pri:0, instance:example.NewTest@7f7f5281]" name="tryanother" duration-ms="1407" started-at="2016-04-05T02:47:42Z" finished-at="2016-04-05T02:47:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryanother -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@78293354]" name="afterTest" is-config="true" duration-ms="964" started-at="2016-04-05T02:24:44Z" finished-at="2016-04-05T02:24:45Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@7f7f5281]" name="afterTest" is-config="true" duration-ms="555" started-at="2016-04-05T02:47:43Z" finished-at="2016-04-05T02:47:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

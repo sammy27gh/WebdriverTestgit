@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-example.NewTest">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -179,6 +179,17 @@
       &lt;class name=&quot;example.NewTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
+  &lt;test name=&quot;Command line test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;example.NewTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;afterTest&quot;/&gt;
+          &lt;include name=&quot;tryanother&quot;/&gt;
+          &lt;include name=&quot;beforeTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- example.NewTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- example.NewTest --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,6 +202,9 @@
             <ul>
               <li>
                 <span class="test-name">Command line test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Command line test(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,16 +234,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testEasy')
 data.setCell(0, 2, 'example.NewTest')
-data.setCell(0, 3, 14433);
+data.setCell(0, 3, 12558);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'tryanother')
 data.setCell(1, 2, 'example.NewTest')
-data.setCell(1, 3, 1219);
+data.setCell(1, 3, 1407);
 window.suiteTableData['example.NewTest']= { tableData: data, tableDiv: 'times-div-example.NewTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-example.NewTest">
               </div> <!-- times-div-example.NewTest -->
             </div> <!-- times-div -->
@@ -262,17 +276,17 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testEasy</span>
-                <span class="method-start">16144 ms</span>
+                <span class="method-start">5459 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tryanother</span>
-                <span class="method-start">30578 ms</span>
+                <span class="method-start">18018 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">31824 ms</span>
+                <span class="method-start">19430 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
