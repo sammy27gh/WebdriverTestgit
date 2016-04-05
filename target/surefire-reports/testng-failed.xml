@@ -6,4 +6,15 @@
       <class name="example.NewTest"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="example.NewTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tryanother"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- example.NewTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [example.NewTest] -->
