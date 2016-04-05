@@ -23,7 +23,7 @@ public class NewTest {
             driver.get("http://www.guru99.com/selenium-tutorial.html");  
             String title = driver.getTitle();   
             System.out.println("Test if the title containf free selenium tutorial ");
-            Assert.assertFalse(title.contains("free"));       
+            Assert.assertTrue(title.contains("free"));       
         } 
         @BeforeTest
         public void beforeTest() {  
