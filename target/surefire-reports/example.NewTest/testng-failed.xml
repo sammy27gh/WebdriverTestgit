@@ -10,10 +10,11 @@
     <classes>
       <class name="example.NewTest">
         <methods>
-          <include name="firstTest"/>
           <include name="afterTest"/>
           <include name="secondTest"/>
+          <include name="Email"/>
           <include name="beforeTest"/>
+          <include name="ThirdTest"/>
         </methods>
       </class> <!-- example.NewTest -->
     </classes>
