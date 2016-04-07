@@ -49,7 +49,7 @@ public class NewTest {
         @Test
         public void Email() throws IOException {   
             //connect to excel sheet
-             File excel = new File("C:\\Users\\emaildoc\\TestData.xlsx");
+             File excel = new File("C:\\Users\\emaildoc\\TestData1.xlsx");
              FileInputStream fis = new FileInputStream(excel);
 
                           XSSFWorkbook wb = new XSSFWorkbook(fis);

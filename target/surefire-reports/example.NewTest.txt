@@ -1,12 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: example.NewTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 24.467 sec <<< FAILURE!
-Email(example.NewTest)  Time elapsed: 2.399 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at example.NewTest.Email(NewTest.java:65)
-
-ThirdTest(example.NewTest)  Time elapsed: 11.847 sec  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 33.026 sec <<< FAILURE!
+ThirdTest(example.NewTest)  Time elapsed: 8.454 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -14,7 +10,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.assertTrue(Assert.java:52)
 	at example.NewTest.ThirdTest(NewTest.java:47)
 
-secondTest(example.NewTest)  Time elapsed: 0.757 sec  <<< FAILURE!
+secondTest(example.NewTest)  Time elapsed: 1.332 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
