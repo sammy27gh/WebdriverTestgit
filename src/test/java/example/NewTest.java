@@ -12,12 +12,20 @@ public class NewTest {
         private WebDriver driver;       
         
         @Test
-        public void tryanother() {    
-        	System.out.println("This is the second test ");
+        public void firstTest() {    
+        	System.out.println("This is the first test ");
             driver.get("http://www.guru99.com/selenium-tutorial.html");  
             String title = driver.getTitle();   
             System.out.println("Test if the title containf free selenium tutorial ");
             Assert.assertTrue(title.contains("free"));       
+        } 
+        @Test
+        public void secondTest() {    
+        	System.out.println("This is the second test ");
+            driver.get("http://www.indeed.com/");  
+            String title = driver.getTitle();   
+            System.out.println("seee if second test worked ");
+            Assert.assertTrue(title.contains("second"));       
         } 
         @BeforeTest
         public void beforeTest() {  

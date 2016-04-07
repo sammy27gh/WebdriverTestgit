@@ -10,8 +10,9 @@
     <classes>
       <class name="example.NewTest">
         <methods>
+          <include name="firstTest"/>
           <include name="afterTest"/>
-          <include name="tryanother"/>
+          <include name="secondTest"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- example.NewTest -->
