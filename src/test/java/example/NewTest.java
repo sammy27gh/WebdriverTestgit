@@ -27,6 +27,7 @@ public class NewTest {
             System.out.println("seee if second test worked ");
             Assert.assertTrue(title.contains("second"));       
         } 
+        @Test
         public void ThirdTest() {    
         	System.out.println("This is the third Test ");
             driver.get("http://www.indeed.com/");  
