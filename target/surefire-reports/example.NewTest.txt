@@ -1,20 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: example.NewTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 33.026 sec <<< FAILURE!
-ThirdTest(example.NewTest)  Time elapsed: 8.454 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.251 sec <<< FAILURE!
+ThirdTest(example.NewTest)  Time elapsed: 10.335 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at example.NewTest.ThirdTest(NewTest.java:47)
-
-secondTest(example.NewTest)  Time elapsed: 1.332 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at example.NewTest.secondTest(NewTest.java:39)
+	at example.NewTest.ThirdTest(NewTest.java:48)
 

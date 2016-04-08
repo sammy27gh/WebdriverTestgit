@@ -33,10 +33,11 @@ public class NewTest {
         @Test
         public void secondTest() {    
         	System.out.println("This is the second test ");
-            driver.get("http://www.indeed.com/");  
-            String title = driver.getTitle();   
-            System.out.println("seee if second test worked ");
-            Assert.assertTrue(title.contains("second"));       
+            driver.get("http://www.indeed.com/"); 
+            String expected = "Job Search | one search. all jobs. Indeed.com";
+            String actual = driver.getTitle();   
+            System.out.println("the check for equals has  ");
+            Assert.assertEquals(actual, expected);
         } 
         @Test
         public void ThirdTest() {    
@@ -46,7 +47,7 @@ public class NewTest {
             System.out.println("seee if third test worked ");
             Assert.assertTrue(title.contains("indeed"));       
         }
-        @Test
+        
         public void Email() throws IOException {   
             //connect to excel sheet
              File excel = new File("C:\\Users\\emaildoc\\TestData1.xlsx");
