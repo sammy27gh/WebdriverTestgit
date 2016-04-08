@@ -47,7 +47,7 @@ public class NewTest {
             System.out.println("seee if third test worked ");
             Assert.assertTrue(title.contains("indeed"));       
         }
-        
+        @Test
         public void Email() throws IOException {   
             //connect to excel sheet
              File excel = new File("C:\\Users\\emaildoc\\TestData1.xlsx");
