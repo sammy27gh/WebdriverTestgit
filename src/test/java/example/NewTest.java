@@ -94,7 +94,7 @@ public class NewTest {
               
     		// final String toEmail = (keyword); // thats to excel sheet email
                //final String toEmail = (rs.getString(1));// thats to database Email
-               final String toEmail = (rs.getString(1));
+               final String toEmail = ("sammy27gh@yahoo.com");
                System.out.println("TLSEmail Start");
                Properties props = new Properties();
                props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
@@ -109,7 +109,7 @@ public class NewTest {
 						"Package content: 1 * PU Leather Waistband"+
              " 	 ------------------------------------------------------------------------"+
              "-----------------------------------------------------------------------"+
-               	" -----------------------------------------------------------------------"+
+               	" --------HERE IS THE LINK ---------------------------------------------------------------"+
                		 "http://www.amazon.com/gp/product/B00V4LEFFA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325"+
                		"&creativeASIN=B00V4LEFFA&linkCode=as2&tag=mobiautomech-20&linkId=6FKLAGXGVFZ5WSTJ ";
                
