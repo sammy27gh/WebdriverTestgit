@@ -13,6 +13,7 @@
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="ThirdTest"/>
+          <include name="DbEmail"/>
         </methods>
       </class> <!-- example.NewTest -->
     </classes>

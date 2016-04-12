@@ -63,7 +63,7 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
  
          // Second part is attachment
          messageBodyPart = new MimeBodyPart();
-         String filename = "C:\\Users\\emaildoc\\newfile.txt";
+         String filename = "C:\\Users\\samuel.samuel-andoh\\workspace\\automated\\handwrists.jpg";
          
          DataSource source = new FileDataSource(filename);
          messageBodyPart.setDataHandler(new DataHandler(source));
