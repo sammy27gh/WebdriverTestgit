@@ -102,7 +102,7 @@ public class NewTest {
                props.put("mail.smtp.auth", "true"); //enable authentication
                props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
                String subject = "HuntGold 1X Hot Fashion Unisex Retro PU Leather Hemp Weave Eight Diagrams";
-               String body = ""
+               String body = "This is the test to make sure that there isnt anough memory"
                			;
 					 
                
