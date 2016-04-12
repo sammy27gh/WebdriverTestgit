@@ -38,10 +38,11 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
          msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
          msg.addHeader("format", "flowed");
          msg.addHeader("Content-Transfer-Encoding", "8bit");
-           
-         msg.setFrom(new InternetAddress("no_reply@journaldev.com", "NoReply-JD"));
+         String subjectList = "Wrap Wrist Band Bracelet ";
+         
+         msg.setFrom(new InternetAddress("HealthyandWellnessProducts", subjectList));
  
-         msg.setReplyTo(InternetAddress.parse("no_reply@journaldev.com", false));
+         msg.setReplyTo(InternetAddress.parse("HealthyandWellnessProducts", false));
  
          msg.setSubject(subject, "UTF-8");
  

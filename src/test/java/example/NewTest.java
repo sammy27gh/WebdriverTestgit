@@ -93,8 +93,8 @@ public class NewTest {
                final String pwd = "HealthyandWellnessProducts123"; // correct password for gmail id
               
     		// final String toEmail = (keyword); // thats to excel sheet email
-               final String toEmail = (rs.getString(1));// thats to database Email
-               
+               //final String toEmail = (rs.getString(1));// thats to database Email
+               final String toEmail = (rs.getString(1));
                System.out.println("TLSEmail Start");
                Properties props = new Properties();
                props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
@@ -107,7 +107,9 @@ public class NewTest {
 						"Ships from and sold by HuntGold(ships from China).Material: PU Leather+Alloy."+
 						"Color: red . Leather Length: About 17cm/Width: About 1.2cm. Rope Length: about 9cm-10cm"+
 						"Package content: 1 * PU Leather Waistband"+
-               	
+             " 	 ------------------------------------------------------------------------"+
+             "-----------------------------------------------------------------------"+
+               	" -----------------------------------------------------------------------"+
                		 "http://www.amazon.com/gp/product/B00V4LEFFA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325"+
                		"&creativeASIN=B00V4LEFFA&linkCode=as2&tag=mobiautomech-20&linkId=6FKLAGXGVFZ5WSTJ ";
                
@@ -135,7 +137,7 @@ public class NewTest {
           
                
    
-      
+      /*
 		@BeforeTest
         public void beforeTest() {  
             driver = new FirefoxDriver();  
@@ -143,5 +145,6 @@ public class NewTest {
         @AfterTest
         public void afterTest() {
             driver.quit();          
-        }       
+        }  
+        */
 }   
