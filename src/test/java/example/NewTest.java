@@ -89,12 +89,12 @@ public class NewTest {
         	   
         	    	 System.out.println(rs.getString(1));
         	   
-        	    final String fromEmail = "HealthyandWellnessProducts@gmail.com"; //requires valid gmail id
+        	    final String fromEmail = "HealthyandWellnessProducts"; //requires valid gmail id
                final String pwd = "HealthyandWellnessProducts123"; // correct password for gmail id
               
     		// final String toEmail = (keyword); // thats to excel sheet email
                //final String toEmail = (rs.getString(1));// thats to database Email
-               final String toEmail = ("sammy27gh@yahoo.com");
+               final String toEmail = ("andoh.samuel@gmail.com");
                System.out.println("TLSEmail Start");
                Properties props = new Properties();
                props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
@@ -103,15 +103,8 @@ public class NewTest {
                props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
                String subject = "HuntGold 1X Hot Fashion Unisex Retro PU Leather Hemp Weave Eight Diagrams";
                String body = ""
-               			+ "Estimated Delivery Date: May 2 - 23 when you choose Standard Shipping at checkout."+
-						"Ships from and sold by HuntGold(ships from China).Material: PU Leather+Alloy."+
-						"Color: red . Leather Length: About 17cm/Width: About 1.2cm. Rope Length: about 9cm-10cm"+
-						"Package content: 1 * PU Leather Waistband"+
-             " 	 ------------------------------------------------------------------------"+
-             "-----------------------------------------------------------------------"+
-               	" --------HERE IS THE LINK ---------------------------------------------------------------"+
-               		 "http://www.amazon.com/gp/product/B00V4LEFFA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325"+
-               		"&creativeASIN=B00V4LEFFA&linkCode=as2&tag=mobiautomech-20&linkId=6FKLAGXGVFZ5WSTJ ";
+               			;
+					 
                
                
                
