@@ -89,12 +89,12 @@ public class NewTest {
         	   
         	    	 System.out.println(rs.getString(1));
         	   
-        	    final String fromEmail = "HealthyandWellnessProducts"; //requires valid gmail id
-               final String pwd = "HealthyandWellnessProducts123"; // correct password for gmail id
+        	    final String fromEmail = "andoh.samuel@gmail.com"; //requires valid gmail id
+               final String pwd = "ska123456"; // correct password for gmail id
               
     		// final String toEmail = (keyword); // thats to excel sheet email
                //final String toEmail = (rs.getString(1));// thats to database Email
-               final String toEmail = ("andoh.samuel@gmail.com");
+               final String toEmail = ("sammy27gh@yahoo.com");
                System.out.println("TLSEmail Start");
                Properties props = new Properties();
                props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
@@ -102,9 +102,8 @@ public class NewTest {
                props.put("mail.smtp.auth", "true"); //enable authentication
                props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
                String subject = "HuntGold 1X Hot Fashion Unisex Retro PU Leather Hemp Weave Eight Diagrams";
-               String body = "This is the test to make sure that there isnt anough memory"
-               			;
-					 
+               String body = "How are you?<br>Here is the <a href=\"http://www.python.org\">link</a> you wanted.";
+                
                
                
                

@@ -54,7 +54,7 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
          BodyPart messageBodyPart = new MimeBodyPart();
  
          // Fill the message
-         messageBodyPart.setText(body);
+         messageBodyPart.setContent(body, "text/html");
           
          // Create a multipart message for attachment
          Multipart multipart = new MimeMultipart();
@@ -72,7 +72,7 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
          multipart.addBodyPart(messageBodyPart);
  
          // Send the complete message parts
-         msg.setContent(multipart);
+         msg.setContent(multipart, "text/html");
  
          // Send message
          Transport.send(msg);
