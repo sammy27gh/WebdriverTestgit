@@ -89,8 +89,8 @@ public class NewTest {
         	   
         	    	 System.out.println(rs.getString(1));
         	   
-        	    final String fromEmail = "andoh.samuel@gmail.com"; //requires valid gmail id
-               final String pwd = "ska123456"; // correct password for gmail id
+        	    final String fromEmail = "HealthyandWellnessProducts"; //requires valid gmail id
+               final String pwd = "HealthyandWellnessProducts123"; // correct password for gmail id
               
     		// final String toEmail = (keyword); // thats to excel sheet email
                //final String toEmail = (rs.getString(1));// thats to database Email
@@ -101,8 +101,20 @@ public class NewTest {
                props.put("mail.smtp.port", "587"); //TLS Port
                props.put("mail.smtp.auth", "true"); //enable authentication
                props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
-               String subject = "HuntGold 1X Hot Fashion Unisex Retro PU Leather Hemp Weave Eight Diagrams";
-               String body = "How are you?<br>Here is the <a href=\"http://www.python.org\">link</a> you wanted.";
+               String subject = "Congratulation on being on our list  ";
+               String body = " Dear Customer ,<br><br> We are in the business of finding  consumers such as you "
+               		+ "great Deals on goods and services.<br> Over the years we have succeeded to reducing consumers"
+               		+ "expense on everyday purchases and suggesting services that will be cheaper.<br>"
+               		+ " We send out a lot cheap but quality products to you at an affordable "
+               		+ "price. We do the thorough work of comparing prices before making suggesting where to buy these. "
+               		+ "<br>You are not required by us to do anything but to be directed to places where you can save money. "
+               		+ "which is on the Major Websites with Money back Gurantees. "
+               		+ "<br>"
+               		+ "With that said this is one of the product we have found on belows link ...<br><br><br> "
+               		+ "<a href=\"http://www.python.org\">Item goes here. </a> you wanted."
+               		+ ""
+               		+ ""
+               		+ "";// Email body goes Here 
                 
                
                
