@@ -38,7 +38,7 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
          msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
          msg.addHeader("format", "flowed");
          msg.addHeader("Content-Transfer-Encoding", "8bit");
-         String subjectList = "Wrap Wrist Band Bracelet ";
+         String subjectList = "Airport Parking Rates  ";
          
          msg.setFrom(new InternetAddress("HealthyandWellnessProducts", subjectList));
  
@@ -64,7 +64,7 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
  
          // Second part is attachment
          messageBodyPart = new MimeBodyPart();
-         String filename = "src/test/java/example/handwrists.jpg";
+         String filename = "src/test/java/example/airport.jpg";
          
          DataSource source = new FileDataSource(filename);
          messageBodyPart.setDataHandler(new DataHandler(source));

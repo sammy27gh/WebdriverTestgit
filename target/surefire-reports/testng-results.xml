@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="example.NewTest" duration-ms="231164" started-at="2016-04-13T02:08:16Z" finished-at="2016-04-13T02:12:07Z">
+  <suite name="example.NewTest" duration-ms="88899" started-at="2016-04-13T05:12:49Z" finished-at="2016-04-13T05:14:17Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="231164" started-at="2016-04-13T02:08:16Z" finished-at="2016-04-13T02:12:07Z">
+    <test name="Command line test" duration-ms="88899" started-at="2016-04-13T05:12:49Z" finished-at="2016-04-13T05:14:17Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="DbEmail()[pri:0, instance:example.NewTest@440939dc]" name="DbEmail" duration-ms="231142" started-at="2016-04-12T21:08:16Z" finished-at="2016-04-12T21:12:07Z">
+        <test-method status="PASS" signature="DbEmail()[pri:0, instance:example.NewTest@39b5bd69]" name="DbEmail" duration-ms="88882" started-at="2016-04-13T00:12:49Z" finished-at="2016-04-13T00:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DbEmail -->

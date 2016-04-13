@@ -94,7 +94,7 @@ public class NewTest {
               
     		// final String toEmail = (keyword); // thats to excel sheet email
                //final String toEmail = (rs.getString(1));// thats to database Email
-               final String toEmail = ("sammy27gh@yahoo.com");
+               final String toEmail = ("kwesi.andoh2007@gmail.com");
                System.out.println("TLSEmail Start");
                Properties props = new Properties();
                props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
@@ -102,7 +102,7 @@ public class NewTest {
                props.put("mail.smtp.auth", "true"); //enable authentication
                props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
                String subject = "Congratulation on being on our list  ";
-               String body = " Dear Customer ,<br><br> We are in the business of finding  consumers such as you "
+               String body = " <h3 >Dear Customer ,<br><br> We are in the business of finding  consumers such as you "
                		+ "great Deals on goods and services.<br> Over the years we have succeeded to reducing consumers"
                		+ "expense on everyday purchases and suggesting services that will be cheaper.<br>"
                		+ " We send out a lot cheap but quality products to you at an affordable "
@@ -110,11 +110,14 @@ public class NewTest {
                		+ "<br>You are not required by us to do anything but to be directed to places where you can save money. "
                		+ "which is on the Major Websites with Money back Gurantees. "
                		+ "<br>"
-               		+ "With that said this is one of the product we have found on belows link ...<br><br><br> "
-               		+ "<a href=\"http://www.python.org\">Item goes here. </a> you wanted."
-               		+ ""
-               		+ ""
-               		+ "";// Email body goes Here 
+               		+ "With that said this is one of the product we have found on belows link ...</h3><br><br><br> "
+               		+ "<h1><a href=\"http://www.anrdoezrs.net/click-8037253-12543778-1459288583000\">Find Airport Parking Rates for your Upcoming Travel </a><h1> "
+               		+ "<br><br><br>"
+               		+ "<h3>Thank You <br>"
+               		+ "Samuel Andoh<br>"
+               		+ "Marketing Manager <br>"
+
+               		+ "</h3>";// Email body goes Here 
                 
                
                
