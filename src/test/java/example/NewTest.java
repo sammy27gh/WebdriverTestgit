@@ -89,23 +89,22 @@ public class NewTest {
         	   
         	    	 System.out.println(rs.getString(1));
         	   
-        	    final String fromEmail = "HealthyandWellnessProducts"; //requires valid gmail id
-               final String pwd = "HealthyandWellnessProducts123"; // correct password for gmail id
+        	    final String fromEmail = "repairs@mobileautomechanic.info"; //requires valid gmail id
+               final String pwd = "Sk@456321"; // correct password for gmail id
               
     		// final String toEmail = (keyword); // thats to excel sheet email
                //final String toEmail = (rs.getString(1));// thats to database Email
-               final String toEmail = ("kwesi.andoh2007@gmail.com");
+               final String toEmail = (rs.getString(1));
                System.out.println("TLSEmail Start");
                Properties props = new Properties();
-               props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
+               props.put("mail.smtp.host", "smtp.ipage.com"); //SMTP Host
                props.put("mail.smtp.port", "587"); //TLS Port
                props.put("mail.smtp.auth", "true"); //enable authentication
                props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
                String subject = "Congratulation on being on our list  ";
-               String body = " <h3 >Dear Customer ,<br><br> We are in the business of finding  consumers such as you "
-               		+ "great Deals on goods and services.<br> Over the years we have succeeded to reducing consumers"
-               		+ "expense on everyday purchases and suggesting services that will be cheaper.<br>"
-               		+ " We send out a lot cheap but quality products to you at an affordable "
+               String body = " <h3 >Dear Customer ,<br><br> We are in the business sending auto mechanics over to consumers home. "
+               		+ "But thats not all we do. We also get great Deals on goods and services .<br> Over the years we have succeeded to reducing consumers"
+               		+ "expense on everyday services  and suggesting services that will be affordable.<br>"
                		+ "price. We do the thorough work of comparing prices before making suggesting where to buy these. "
                		+ "<br>You are not required by us to do anything but to be directed to places where you can save money. "
                		+ "which is on the Major Websites with Money back Gurantees. "

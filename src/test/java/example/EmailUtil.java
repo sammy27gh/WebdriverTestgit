@@ -40,9 +40,9 @@ public static void sendAttachmentEmail(Session session, String toEmail, String s
          msg.addHeader("Content-Transfer-Encoding", "8bit");
          String subjectList = "Airport Parking Rates  ";
          
-         msg.setFrom(new InternetAddress("HealthyandWellnessProducts", subjectList));
+         msg.setFrom(new InternetAddress("repairs@mobileautomechanic.info", subjectList));
  
-         msg.setReplyTo(InternetAddress.parse("HealthyandWellnessProducts", false));
+         msg.setReplyTo(InternetAddress.parse("repairs@mobileautomechanic.info", false));
  
          msg.setSubject(subject, "UTF-8");
  
