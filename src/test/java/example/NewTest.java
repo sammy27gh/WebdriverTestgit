@@ -83,7 +83,7 @@ public class NewTest {
         	     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         	     Connection conn = DriverManager.getConnection(url, userName, password);
         	     Statement sta =  conn.createStatement();
-        	     String Sql = "select * from Books.[dbo].[InternetMarketing]";
+        	     String Sql = "select * from Autos.[dbo].[AampL AUTO SERVICES HOUSTON TX]";
         	     ResultSet rs = sta.executeQuery(Sql);
         	     while (rs.next()) {
         	   
